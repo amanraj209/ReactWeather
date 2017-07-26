@@ -6,6 +6,9 @@ const Weather = require('Weather');
 const About = require('About');
 const Examples = require('Examples');
 
+require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
+$(document).foundation();
+
 ReactDOM.render(
     <HashRouter>
         <div>
